@@ -8,3 +8,6 @@ wsk action update wordcountseq --sequence split,wordcount,echo
 
 #invoke the sequence
 wsk action invoke wordcountseq -r -p text "can tou can a can as a canner can can ca c a acn"
+
+#to see the activations, also click on the activation of the sequence to see the time spend and the gap in betwee function inocations
+wsk activations list
